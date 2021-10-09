@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-color: #ADA996;
+    background-size: cover;
+        z-index: 1;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column;
+}
+
+.container section {
+    padding-top: 25vh;
+    width: 80vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.container section #btnPiso, #btnDpto {
+    background: #c2bc9f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dacccc, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #beb2b2, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.container section .portero {
+    
+    margin: 0 1rem 0 1rem;
+    width: 90%;
+    
+}
+
+.container section .portero tr td {    
+    text-align: center;
+}
+
+.container section .portero tr button {
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Monoton', cursive;
+    width: 95%;
+    margin: .5rem;
+    font-size: 4vh;
+}
+
+
+
+.container section .portero tr td #labelPiso #resultado{
+    font-family: 'Turret Road', cursive;
+    font-weight:normal; 
+    width: 50%;
+}
+
+.container section .portero #resultadosPisoDpto {
+    background-color: #000000;
+    font-family: 'Turret Road', cursive;
+    color:#ffffff;
+    text-shadow:
+		0 0 5px rgb(223, 226, 14),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+    font-size:4vw; 
+    line-height:30px; 
+    height: 18vh;
+    
+}
+
+.container section .portero #resultadosPisoDpto #colResultado {
+    width: 100px;
+}
